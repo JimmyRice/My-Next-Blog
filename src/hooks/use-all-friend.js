@@ -4,14 +4,14 @@ const useAllFriend = () => {
   const friends = useStaticQuery(graphql`
     query {
       directus {
-        Friend {
+        friend {
           name
           url
           bio
         }
       }
     }
-  `).directus.Friend
+  `).directus.friend
 
   return friends
 }

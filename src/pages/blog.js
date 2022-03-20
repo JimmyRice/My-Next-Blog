@@ -15,12 +15,12 @@ const Blog = () => {
                 <SimpleBanner title="My Blog">
                     <StaticImage
                         className="banner__image"
-                        src="../../static/84647109_p0.jpg"
+                        src="../../static/IMG_3422.jpeg"
                         alt="Ro&SOPII"
                     />
                 </SimpleBanner>
                 <AllPosts
-                    title="All blog posts from Seamain"
+                    title="All blog posts from Jimmy"
                 />
             </Layout>
         </>

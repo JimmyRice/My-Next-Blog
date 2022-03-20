@@ -14,7 +14,7 @@ const BannerModule = ({ children, title, subTitle, price, enquire }) => {
           <StaticImage
             className="banner__image"
             imgClassName="banner__image--content"
-            src="../../../static/微信图片_20211208140738.jpg"
+            src="../../../static/w.jpg"
             alt="Banner Image"
             layout="fullWidth"
             placeholder="blurred"

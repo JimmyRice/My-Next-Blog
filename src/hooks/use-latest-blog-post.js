@@ -8,8 +8,11 @@ const useLatestPost = () => {
           id
           slug
           title
-          tags
-          createdDate
+          tag
+          date
+          author {
+            name
+          }
         }
       }
     }

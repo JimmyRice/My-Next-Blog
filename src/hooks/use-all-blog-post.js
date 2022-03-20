@@ -8,8 +8,11 @@ const useAllBlogPost = () => {
           id
           slug
           title
-          tags
-          createdDate
+          tag
+          date
+          author {
+            name
+          }
         }
       }
     }

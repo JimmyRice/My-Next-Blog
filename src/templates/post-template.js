@@ -10,9 +10,7 @@ import ReactMarkdown from "react-markdown";
 const PostTemplate = ({data}) => {
     const post = data.directus.article_by_id
 
-    console.log(data)
-
-    const createdAt = new Date(post.createdDate).toDateString()
+    const createdAt = new Date(post.date).toDateString()
 
     return (
     <>
@@ -22,6 +20,9 @@ const PostTemplate = ({data}) => {
                   {post.title && <h1 className="blogsingle__title">{post.title}</h1>}
                   {createdAt && (
                       <p className="blogsingle__date">Posted on {createdAt}</p>
+                  )}
+                  {post.author.name && (
+                      <p className="blogsingle__date">Author is {post.author.name}</p>
                   )}
                   {post.content && (
                       <article className="blogsingle__content">
@@ -33,7 +34,7 @@ const PostTemplate = ({data}) => {
                   )}
               </PostSingleStyles>
           </section>
-          <LatestPosts title="Further reading from Seamain" />
+          <LatestPosts title="Further reading from Jimmy0w0" />
       </Layout>
     </>
   )
@@ -44,9 +45,9 @@ export const query = graphql`
         directus {
             article_by_id(id: $id) {
                 title
-                tags
+                tag
                 content
-                createdDate
+                date
                 author {
                     name
                 }

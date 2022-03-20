@@ -8,15 +8,15 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Seamain",
-    description: "哇偶",
-    author: "Seamain&Jimmy",
-    twitterUsername: "barcadia",
-    facebookUsername: "barcadia",
-    instagramUsername: "barcadia",
-    linkedinUsername: "morgan-baker-development",
+    title: "Jimmy0w0 neXt",
+    description: "嗯哼，是 Jimmy",
+    author: "Jimmy & Seamain",
+    twitterUsername: "0",
+    facebookUsername: "0",
+    instagramUsername: "0",
+    linkedinUsername: "0",
     image: "/macbook-color.jpg",
-    siteUrl: "https://seamain.studio",
+    siteUrl: "https://next.jimmy0w0.me",
     developerName: "Morgan Baker Development",
     developerUrl: "https://www.morganbaker.dev",
   },
@@ -27,7 +27,7 @@ module.exports = {
       options: {
         typeName: "Directus",
         fieldName: "directus",
-        url: "https://t3tmqp0w.directus.app/graphql",
+        url: "https://4gsj0ady.directus.app/graphql",
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -39,11 +39,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Seamain Studio`,
-        short_name: `Seamain`,
+        name: `Jimmy0w0 neXt`,
+        short_name: `neXt`,
         start_url: `/`,
-        background_color: `#6e83ce`,
-        theme_color: `#3742bf`,
+        background_color: `#1B1B1B`,
+        theme_color: `#1B1B1B`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,

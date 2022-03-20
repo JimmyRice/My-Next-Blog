@@ -31,7 +31,8 @@ const NavModule = () => {
     setSubNav((subNavIsOpen) => !subNavIsOpen)
   }
 
-  let title = "Seamain";
+  let title = "Jimmy0w0 neXt";
+
   return (
     <NavModuleStyles>
       <div className="nav">

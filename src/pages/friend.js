@@ -10,10 +10,10 @@ const Friend = () => {
         <>
             <Seo title="Friends" />
             <Layout>
-                <SimpleBanner title="Friends~">
+                <SimpleBanner title="Friends">
                     <StaticImage
                         className="banner__image"
-                        src="../../static/微信图片_20210905203714.jpg"
+                        src="../../static/85948065_p0.jpeg"
                         alt="Ro&SOPII"
                     />
                 </SimpleBanner>
