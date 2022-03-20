@@ -6,7 +6,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const categories = (
         await graphql(`
             query {
-                dicretus {
+                directus {
                     category {
                         id
                         slug
