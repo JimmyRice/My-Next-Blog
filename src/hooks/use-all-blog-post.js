@@ -10,6 +10,7 @@ const useAllBlogPost = () => {
           title
           tag
           date
+          excerpt
           author {
             name
           }

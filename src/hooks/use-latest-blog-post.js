@@ -10,6 +10,7 @@ const useLatestPost = () => {
           title
           tag
           date
+          excerpt
           author {
             name
           }
