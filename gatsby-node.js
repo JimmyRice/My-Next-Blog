@@ -3,6 +3,19 @@ const path = require(`path`)
 exports.createPages = async ({ graphql, actions }) => {
     const { createPage } = actions
 
+    const categories = (
+        await graphql(`
+            query {
+                dicretus {
+                    category {
+                        id
+                        slug
+                    }
+                }
+            }
+        `)
+    ).data.directus.category
+
     const articles = (
         await graphql(`
             query {

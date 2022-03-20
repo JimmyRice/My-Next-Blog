@@ -12,13 +12,6 @@ const Blog = () => {
         <>
             <Seo title="Blog" />
             <Layout>
-                <SimpleBanner title="My Blog">
-                    <StaticImage
-                        className="banner__image"
-                        src="../../static/IMG_3422.jpeg"
-                        alt="Ro&SOPII"
-                    />
-                </SimpleBanner>
                 <AllPosts
                     title="All blog posts from Jimmy"
                 />
